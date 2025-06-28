@@ -8,16 +8,16 @@ project_name="textSummarizer"
 
 list_of_files = [
     ".github/workflows/.gitkeep" , # (workflows/.gitkeep are anather files insite github)this files are use for ci/cd deployment
-    f"src{project_name}/__init__.py" ,  #whenever we look for importing local packeges it will look for __init__.pyy(constructer file)
-    f"src{project_name}/components/__init__.py",
-    f"src{project_name}/utils/__init__.py",
-    f"src{project_name}/utils/common.py",
-    f"src{project_name}/logging/__init__.py",
-    f"src{project_name}/config/__init__.py",
-    f"src{project_name}/config/configuration.py",
-    f"src{project_name}/pipeline/__init__.py",
-    f"src{project_name}/entity/__init__.py",
-    f"src{project_name}/constants/__init__.py",
+    f"src/{project_name}/__init__.py" ,  #whenever we look for importing local packeges it will look for __init__.pyy(constructer file)
+    f"src/{project_name}/components/__init__.py",
+    f"src/{project_name}/utils/__init__.py",
+    f"src/{project_name}/utils/common.py",
+    f"src/{project_name}/logging/__init__.py",
+    f"src/{project_name}/config/__init__.py",
+    f"src/{project_name}/config/configuration.py",
+    f"src/{project_name}/pipeline/__init__.py",
+    f"src/{project_name}/entity/__init__.py",
+    f"src/{project_name}/constants/__init__.py",
     "config/congig.yaml",
     "params.yaml",
     "app.py",
